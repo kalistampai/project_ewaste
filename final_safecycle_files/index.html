@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ================= SITE NOTES =================
+       Safe Cycle Tech - safecycletech.com
+       Contact info is live: (415) 612-8520 / pickup@safecycletech.com
+       (make sure email forwarding for pickup@safecycletech.com is set up
+       at your domain registrar so messages reach your real inbox).
+       No form, GitHub token, Gist, or JSON file needed - contact is by
+       phone/text and email only. Total site files: 3.
+       To update phone/email later: find-and-replace "4156128520",
+       "(415) 612-8520", and "pickup@safecycletech.com" in this file.
+       ================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe Cycle Tech — Free Electronics Pickup. Old Tech In, Opportunity Out.</title>
+  <meta name="description" content="Free pickup of old and broken phones, PCs, tablets and electronics across the Bay Area. Based in Marin County. We refurbish what we can and donate working devices to local kids and families." />
+
+  <!-- Fonts: free Google Fonts (Fraunces for display, Sora for body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Safe Cycle Tech home">
+        <!-- Inline SVG logo: circular loop arrows — the "cycle" in Safe Cycle Tech -->
+        <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M13 24c0-6 4-10 11-11l-3-3m3 3-3 3" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M27 16c0 6-4 10-11 11l3 3m-3-3 3-3" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Safe Cycle <em>Tech</em></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+        <a href="#how">How It Works</a>
+        <a href="#impact">Our Impact</a>
+        <a href="#about">Our Story</a>
+        <a href="#stories">Neighbors</a>
+        <a href="#faq">FAQ</a>
+        <a href="tel:+14156128520" class="btn btn--small btn--solid">📞 Call or Text</a>
+      </nav>
+
+      <!-- Mobile hamburger -->
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="eyebrow">Free pickup · Bay Area-wide · Based in Marin County</p>
+        <h1>Your junk drawer.<br /><span class="accent">Their first computer.</span></h1>
+        <p class="hero__lede">
+          That dead laptop in your closet? The cracked tablet in the drawer? We pick them up
+          for <strong>free</strong>, refurbish what we can, and put working devices into the
+          hands of local kids and families who need them. The rest is recycled the right way —
+          never the landfill.
+        </p>
+        <div class="hero__ctas">
+          <a href="tel:+14156128520" class="btn btn--solid btn--big">📞 Call or Text (415) 612-8520</a>
+          <a href="mailto:pickup@safecycletech.com" class="btn btn--ghost btn--big">✉️ pickup@safecycletech.com</a>
+        </div>
+        <!-- Three-step strip: the "loop" -->
+        <ul class="hero__steps" aria-label="Our process">
+          <li><span class="step-num">1</span> You donate it</li>
+          <li><span class="step-num">2</span> We refurbish it</li>
+          <li><span class="step-num">3</span> A local kid gets it</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TRUST STRIP ============ -->
+    <section class="trust" aria-label="Our standards">
+      <div class="container trust__grid">
+        <div class="trust__item">
+          <h3>🔒 Your data, destroyed</h3>
+          <p>Every drive is wiped to NIST 800-88 standards or physically destroyed. We log it. You can ask for the record.</p>
+        </div>
+        <div class="trust__item">
+          <h3>♻️ Responsibly recycled</h3>
+          <p>Devices we can't refurbish go to certified California electronics recyclers — never the landfill, never overseas dumping.</p>
+        </div>
+        <div class="trust__item">
+          <h3>💚 Free means free</h3>
+          <p>No fees, no fine print, no "suggested donation." Doorstep pickup costs you nothing, ever.</p>
+        </div>
+        <div class="trust__item">
+          <h3>📋 Every device accounted for</h3>
+          <p>We track what we collect and where it ends up — refurbished, donated, or recycled. Transparency is the whole point.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="how section" id="how">
+      <div class="container">
+        <p class="eyebrow">Simple by design</p>
+        <h2>How it works</h2>
+        <div class="how__grid">
+          <article class="card">
+            <div class="card__badge">Option A</div>
+            <h3>Free doorstep pickup</h3>
+            <ol>
+              <li><strong>Tell us what you've got</strong> — one call, text, or email. Phones, laptops, PCs, tablets, DVRs, cables, the works. Broken is fine. Broken is <em>expected</em>.</li>
+              <li><strong>Pick a day</strong> — choose a date that works, or say "ASAP" and we'll fit you into this week's route.</li>
+              <li><strong>Set it out</strong> — porch, driveway, or hand-off. We confirm by text when it's collected. Done.</li>
+            </ol>
+          </article>
+          <article class="card">
+            <div class="card__badge">Option B</div>
+            <h3>Drop-off at the workshop</h3>
+            <ol>
+              <li><strong>Message us first</strong> — we'll share the current drop-off address and hours.</li>
+              <li><strong>Bring your devices</strong> — no appointment needed once you have the details.</li>
+              <li><strong>That's it</strong> — we handle data wiping, refurbishing, and responsible recycling from there.</li>
+            </ol>
+          </article>
+        </div>
+        <p class="how__accept"><strong>We accept:</strong> phones · laptops · desktop PCs · tablets · flat-screen monitors · DVRs &amp; streaming boxes · game consoles · routers &amp; modems · keyboards, mice &amp; cables · hard drives <span class="muted">(wiped or destroyed, guaranteed)</span> — <strong>and just about any other electronic.</strong> If it plugs in or charges, chances are we'll take it. Not sure? Just ask.</p>
+      </div>
+    </section>
+
+    <!-- ============ OUR IMPACT ============ -->
+    <section class="impact section section--tinted" id="impact">
+      <div class="container">
+        <p class="eyebrow">Why it matters</p>
+        <h2>One device can change a kid's whole year</h2>
+        <p class="impact__lede">
+          Thousands of Bay Area students still don't have a working computer at home. Homework gets
+          done on a cracked phone screen — or doesn't get done at all. Meanwhile, perfectly fixable
+          laptops sit in drawers three blocks away. Safe Cycle Tech exists to close that gap.
+        </p>
+        <div class="impact__cols">
+          <div>
+            <h3>What we do with your device</h3>
+            <p>
+              Every donation is triaged by hand in our workshop. If it can live again, we wipe it clean,
+              repair it, load it with free, kid-friendly software, and pass it on. If it can't, we make
+              sure its materials are recovered responsibly by certified California recyclers — so nothing
+              toxic ends up in our soil or water.
+            </p>
+          </div>
+          <div>
+            <h3>Where devices go</h3>
+            <p>
+              Refurbished devices — computers, phones, tablets, anything that can help a student —
+              are donated to families through local channels serving low-income youth across the Bay Area:
+            </p>
+            <ul class="impact__list">
+              <li>Title I schools and after-school programs</li>
+              <li>Community centers serving low-income families</li>
+              <li>Youth and family programs across the Bay Area</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR STORY ============ -->
+    <section class="about section" id="about">
+      <div class="container about__inner">
+        <div>
+          <p class="eyebrow">Our story</p>
+          <h2>Helping Bay Area kids get connected</h2>
+          <p>
+            Safe Cycle Tech is a small Bay Area workshop with one goal: getting students and
+            underprivileged families connected online. We collect the electronics you no longer
+            need, refurbish what we can, and place working devices with local kids who need them.
+            What can't be saved is recycled responsibly.
+          </p>
+          <p>
+            The need is bigger than most people realize. Even here in the Bay Area, many students
+            still don't have a working computer at home — and today, homework, school portals,
+            college applications, and job searches all happen online. A family without a device
+            gets left behind. Your old electronics can change that.
+          </p>
+        </div>
+        <div class="about__panel">
+          <h3>Our commitments</h3>
+          <ul class="checklist">
+            <li>Pickup is free. Always. For everyone.</li>
+            <li>Your data never leaves our hands intact.</li>
+            <li>Working devices go to local kids.</li>
+            <li>Non-working devices go to certified CA recyclers.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials section section--tinted" id="stories">
+      <div class="container">
+        <p class="eyebrow">From our neighbors</p>
+        <h2>What donors say</h2>
+        <div class="testimonials__grid">
+          <blockquote class="quote">
+            <p>“Super easy. They came and grabbed everything from my garage the same week I texted them.”</p>
+            <footer>— Maria G., Marin County</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Used them a few times over the years. Always on time and no hassle. Feels good knowing some stuff goes to local kids.”</p>
+            <footer>— James T., Richmond</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Quick pickup. Cleaned out my classroom and they took it all. Reliable every time I’ve called.”</p>
+            <footer>— Mr. Ramirez, Hayward</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“They’ve been picking up stuff from my house for years now. Never had an issue. I like that they actually try to refurbish what they can.”</p>
+            <footer>— Linda R., El Cerrito</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Easy pickup. Texted them photos and they came out the next day. Appreciate that it stays in the community.”</p>
+            <footer>— Aisha K., Marin County</footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Dropped a few things off instead of waiting for pickup. They were cool about it and quick.”</p>
+            <footer>— David L., Berkeley</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <p class="eyebrow">No forms. No waiting.</p>
+        <h2>Ready when you are</h2>
+        <p class="contact__lede">
+          One call, one text, or one email — that's the whole process. Tell us what you've got
+          (photos welcome!) and we'll set up your free pickup, usually the same day.
+        </p>
+        <div class="contact__grid">
+          <!-- Tap-to-call card -->
+          <a class="contact__card" href="tel:+14156128520">
+            <span class="contact__icon" aria-hidden="true">📞</span>
+            <span class="contact__label">Call or text</span>
+            <span class="contact__value">(415) 612-8520</span>
+            <span class="contact__hint">Texting photos of your pile is the fastest way to schedule</span>
+          </a>
+          <!-- Tap-to-email card -->
+          <a class="contact__card" href="mailto:pickup@safecycletech.com">
+            <span class="contact__icon" aria-hidden="true">✉️</span>
+            <span class="contact__label">Email us</span>
+            <span class="contact__value">pickup@safecycletech.com</span>
+            <span class="contact__hint">Tell us what you're donating and your neighborhood — we'll reply with a pickup day</span>
+          </a>
+        </div>
+        <p class="muted contact__fine">Broken, dusty, ancient? Perfect. Bring it on.</p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section section--tinted" id="faq">
+      <div class="container">
+        <p class="eyebrow">Straight answers</p>
+        <h2>Questions people actually ask</h2>
+
+        <!-- Native <details> elements: work with zero JS.
+             script.js adds an "only one open at a time" nicety. -->
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>Is it really free? What's the catch?</summary>
+            <p>Really free, no catch. Refurbishing donated electronics for local kids <em>is</em> the point of the workshop. We may pursue nonprofit status and California's recycling programs to fund growth — but pickups stay free either way.</p>
+          </details>
+          <details class="faq__item">
+            <summary>What happens to my personal data?</summary>
+            <p>Every storage drive is either wiped to NIST 800-88 standards or physically destroyed before a device goes anywhere. We keep a log, and you're welcome to ask for confirmation for your specific device.</p>
+          </details>
+          <details class="faq__item">
+            <summary>My device is completely dead. Do you still want it?</summary>
+            <p>Yes! Dead devices still have valuable, recoverable parts — and hazardous materials that should never hit a landfill. If we can't revive it, it goes to a certified California electronics recycler.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Who receives the devices?</summary>
+            <p>Refurbished devices — computers, phones, tablets, anything that can help an underprivileged student — are donated through schools, after-school programs, and community organizations serving low-income Bay Area families.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Do you take TVs, printers, or big appliances?</summary>
+            <p>Computer monitors — yes, absolutely, as long as they're the flat-screen kind. What we can't take: old tube-style (CRT) TVs and monitors, big-screen TVs, and large appliances — we're a small operation, so oversized and heavy items are beyond what we can haul. For just about everything else, the rule of thumb is simple: if it plugs in or charges and one person can carry it, we'll almost certainly take it. Not sure? Ask — and if it's something we can't handle, we'll point you to the right county drop-off.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__logo">Safe Cycle <em>Tech</em></p>
+        <p class="muted">Your junk drawer. Their first computer.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#how">How It Works</a>
+        <a href="#impact">Our Impact</a>
+        <a href="#stories">Neighbors</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer__contact">
+        <p><a href="tel:+14156128520">(415) 612-8520</a></p>
+        <p><a href="mailto:pickup@safecycletech.com">pickup@safecycletech.com</a></p>
+        <p><a href="https://safecycletech.com">safecycletech.com</a></p>
+      </div>
+    </div>
+    <div class="container footer__legal">
+      <p class="muted">© <span id="year"></span> Safe Cycle Tech · Committed to responsible electronics recycling across the Bay Area.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
