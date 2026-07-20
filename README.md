@@ -32,6 +32,18 @@ hasslerdmp22@gmail.com
 
 ***
 
+* NEXTDOOR #1
+	
+rooftoprob415@gmail.com
+
+***
+
+* REDDIT
+
+recoates415@gmail.com
+
+***
+
 ***# Local Computer Pickup & Refurbishment: Free Marketing Playbook
 
 > Practical, platform-by-platform strategies to source free computers for refurbishment and donation to kids — without spending money on ads.
