@@ -2,6 +2,6 @@ MOVE ONTO SETTING UP QR CODE TRACKING IN WEBISTE SAFECYCLE
 
 update ewaste radme to include ALL LOGINS AND ACCNT INCLUDING FACEBOOK MEXTOOR AND REDDIT?
 
-update code to remove any traces of it bult using AI
+CHECK EMAIL SEE WHAT RETURN ADDRESS IS. LETS KEEP IT pickup@safecycle 
 
-also delete any dashes throughout the website 
+
