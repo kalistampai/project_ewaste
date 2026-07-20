@@ -4,9 +4,19 @@ EVERYTHING EWASTE PROJECT POSTED HERE
 
 * DOMAIN:
 
-https://incognet.io/
+NAMECHEAP
 
-hasslerdmp22@gmail.com
+mail
+
+domainstamp22 mail
+
+burner app using real number 
+
+415-612-8520
+
+safecycletech .com
+
+***
 
 
 * GITHUB PAGES HOSTED:
