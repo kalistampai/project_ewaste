@@ -1,26 +1,33 @@
 # project_ewaste
 
-* DOMAIN:
+## Domain
+- **Registrar:** Namecheap
+- **Mail:** domainstamp22 mail
+- **Burner app:** Using real number
+- **Phone:** 415-612-8520
+- **Domain:** safecycletech.com
 
-NAMECHEAP
+---
 
-mail
+## GitHub Pages Hosted
+- **URL:** [https://kalistampai.github.io/ewaste/](https://kalistampai.github.io/ewaste/)
+- **Email:** [hasslerdmp22@gmail.com](mailto:hasslerdmp22@gmail.com)
 
-domainstamp22 mail
+---
 
-burner app using real number 
+## Facebook
+- **Email:** [hasslerdmp22@gmail.com](mailto:hasslerdmp22@gmail.com)
+- **Phone:** +19253815491
 
-415-612-8520
+---
 
-safecycletech .com
+## Nextdoor #1
+- **Email:** [rooftoprob415@gmail.com](mailto:rooftoprob415@gmail.com)
 
-***
+---
 
-* GITHUB PAGES HOSTED:
-
-https://kalistampai.github.io/ewaste/
-
-hasslerdmp22@gmail.com
+## Reddit
+- **Email:** [recoates415@gmail.com](mailto:recoates415@gmail.com)
 
 ***
 
