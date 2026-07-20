@@ -1,7 +1,5 @@
 # project_ewaste
 
-EVERYTHING EWASTE PROJECT POSTED HERE
-
 * DOMAIN:
 
 NAMECHEAP
@@ -18,7 +16,6 @@ safecycletech .com
 
 ***
 
-
 * GITHUB PAGES HOSTED:
 
 https://kalistampai.github.io/ewaste/
@@ -26,6 +23,15 @@ https://kalistampai.github.io/ewaste/
 hasslerdmp22@gmail.com
 
 ***
+
+* FACEBOOK
+
+hasslerdmp22@gmail.com
+
++19253815491
+
+***
+
 ***# Local Computer Pickup & Refurbishment: Free Marketing Playbook
 
 > Practical, platform-by-platform strategies to source free computers for refurbishment and donation to kids — without spending money on ads.
