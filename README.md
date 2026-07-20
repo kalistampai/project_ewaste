@@ -21,6 +21,19 @@
 
 ---
 
+## eBay
+- **Email:** hasslerdmp22@gmail.com
+- **Password:** Fuckebay415#
+- **Phone:** 415-612-8520
+
+---
+
+## Swappa
+- **Email:** hasslerdmp22@gmail.com
+- **Address:** 274 Carlsbad Ct, 94903
+
+---
+
 ## Nextdoor #1
 - **Email:** [rooftoprob415@gmail.com](mailto:rooftoprob415@gmail.com)
 
